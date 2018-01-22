@@ -1,5 +1,5 @@
 require(dplyr)
-
+require(ggplot2)
 text.clean = function(corpus,stpwrds)                    # text data
 { require(tidytext)
   require(tm)
