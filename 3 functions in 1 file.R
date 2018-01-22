@@ -47,6 +47,8 @@ function_display = function(corpus_dtm_tf)
   library(wordcloud)
   require(igraph)
   library(igraph)
+  require(ggplot2)
+  library(ggplot2)
   ##Wordcloud
   display_word_cloud=function(corpus_dtm_tf){
     corpus_dtm=as.matrix(corpus_dtm_tf)
