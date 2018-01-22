@@ -1,3 +1,5 @@
+require(dplyr)
+
 text.clean = function(corpus,stpwrds)                    # text data
 { require(tidytext)
   require(tm)
