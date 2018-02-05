@@ -20,6 +20,6 @@ text.clean = function(corpus,stpwrds)                    # text data
   corpus=removeWords(corpus,merged_stp_wrds)
   
   corpus  =  stripWhitespace(corpus)                  # removing white space
-  clean_corpus<-data_frame(document=1:length(corpus),text=corpus)
+  #clean_corpus<-data_frame(document=1:length(corpus),text=corpus)
   return(clean_corpus)
 }
